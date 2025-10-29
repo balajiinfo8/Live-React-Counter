@@ -19,6 +19,7 @@ function Counter()
 
         return(
             <div style={{ textAlign: 'center'}}>
+                
                 {/* Display Infomation Text */}
                 <h1>Hover To Increment / Decrement / Reset</h1>
                 {/* display count value */}

@@ -1,5 +1,5 @@
 {
-  "name": "usestate-hook",
+  "name": "react-auto-counter",
   "private": true,
   "homepage": "https://balajiinfo8.github.io/React-Auto-Counter",
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
